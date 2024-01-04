@@ -1,0 +1,11 @@
+.content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footer {
+    padding-left: 850px;
+    color: orange;
+    background-color: gray;
+}

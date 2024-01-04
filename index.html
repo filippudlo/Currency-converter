@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja trzecia strona</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/other.css" rel="stylesheet" />
+    <link href="CSS/form.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="Js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <form class="form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Kalkulator Walut</legend>
+          <p>
+            <label
+              ><span class="form__labelText form__labelText--top"> *Ilość PLN:</span
+              ><input
+                required
+                type="number"
+                min="0.01"
+                step="0.01"
+                name="PLN" 
+                class="form__field form__field--top js-pln"
+            /></label>
+          </p>
+          <p>Wybór waluty*</p>
+          <ul class="form__list">
+            <li>
+              <label
+                ><span class="form__labelText "
+                  >USD<input
+                    type="radio"
+                    required
+                    class="js-dolary form__field" 
+                    name="euro-dolar"
+                    value="0.25"/></span
+              ></label>
+            </li>
+            <li>
+              <label
+                ><span class="form__labelText"
+                  >EUR<input
+                    type="radio"
+                    required
+                    class="js-euro form__field"
+                    name="euro-dolar"
+                    value="0.234"
+                  /></span
+              ></label>
+            </li>
+          </ul>
+          <p>Otrzymasz <strong class="js-amount">N/A</strong></p>
+          <p>Części formularza zaznaczone * są niezbędne do przeliczenia.</p>
+        </fieldset>
+        <p>
+          <button class="form__button">Przelicz</button
+          ><button class="form__button" type="reset">Wyczyść</button>
+        </p>
+      </form>
+    </div>
+    <footer class="footer">Copyright © 2018 - 3018 tastrona.pl</footer>
+  </body>
+</html>
