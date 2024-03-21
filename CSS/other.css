@@ -9,3 +9,8 @@
     color: orange;
     background-color: gray;
 }
+.body {
+    overflow: auto;
+    background-image: url("../Images/pexels-olia-danilevich-5466789.jpg");
+    background-size: cover;
+}

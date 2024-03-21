@@ -1,15 +1,16 @@
-# Filip Pudłowski - kalkulator walut
+# Filip Pudłowski - value converter
 
 ## Demo
 
-https://filippudlo.github.io/homepage/
+https://filippudlo.github.io/Currency-converter/
 
-## Opis
-Na tej stronie znajdziesz prosty kalkulator walut. Pozwala on przeliczyć daną ilość PLN na USD lub Euro.
+## Description
+This site allows us to convert given amount of PLN into either EUR or USD. During it creation 
 
-## Instrukcja
+## Instruction
 
-1. Wprowadź ilość w PLN w okienko do tego przeznaczone
-2. Zaznacz "EUR" lub "USD"
-3. Kliknij "przelicz"
-4. W przypadku gdybyś chciał wyczyścić formularz kliknij przycisk "Wyczyść"
+1. Insert PLN amount into the window under "*Ilość PLN"
+2. Mark either "EUR" or "USD"
+3. Click "Przelicz"
+4. In case you would like to clear the form click "Wyczyść"
+
