@@ -1,4 +1,4 @@
-# Filip Pudłowski - value converter
+# Filip Pudłowski - currency converter
 
 ## Demo
 
