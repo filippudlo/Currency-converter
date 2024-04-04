@@ -2,6 +2,7 @@
     display: inline-block;
     width: 150px;
 }
+
 .form__field {
     width: 100%;
     max-width: 100px;
@@ -18,19 +19,22 @@
 
 .form__button {
     border: none;
-    background-color:coral;
+    background-color: coral;
     width: 42%;
     padding: 10px;
     margin: 0px 10px;
     font-size: large;
 }
+
 .form__button:hover {
-    background-color:rgb(253, 148, 110);
+    background-color: rgb(253, 148, 110);
 }
-.form__button:active{
-    background-color:rgb(253, 180, 153);
+
+.form__button:active {
+    background-color: rgb(253, 180, 153);
 
 }
+
 .form__legend {
     margin-left: auto;
     margin-right: auto;
@@ -38,18 +42,23 @@
     border: 1px solid rgb(87, 87, 87);
     border-radius: 3px;
 }
+
 .form__labelText--top {
     margin-left: 70px;
 }
+
 .form__field--top {
     margin-left: 60px;
 }
+
 .form {
     margin-top: 10px;
 }
+
 .form__fieldset {
     background-color: lightgray;
 }
+
 .form__list {
     list-style: none;
 }

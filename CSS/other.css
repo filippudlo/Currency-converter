@@ -4,11 +4,13 @@
     padding: 0 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .footer {
     padding-left: 850px;
     color: orange;
     background-color: gray;
 }
+
 .body {
     overflow: auto;
     background-image: url("../Images/pexels-olia-danilevich-5466789.jpg");

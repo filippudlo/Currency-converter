@@ -1,5 +1,5 @@
 {
-  const innit = () => {
+  const init = () => {
     const formElement = document.querySelector(".form");
 
     formElement.addEventListener("submit", (event) => {
@@ -8,7 +8,7 @@
       calculated();
     });
   };
-  innit();
+  init();
 
   const calculated = () => {
     const eurElement = document.querySelector(".js-euro");
